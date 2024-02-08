@@ -1,0 +1,58 @@
+.hero-image {
+    background-image: url("/img/picture001.avif");
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .picture1 {
+    width: 100%;
+    position: absolute;
+  }
+  .tom {
+    position: absolute;
+    width: 200px;
+  }
+  .tom-2 {
+    position: absolute;
+    width: 200px;
+    top: 600px;
+   left: 1300px;
+  
+   animation: tommove 5s 1 1s; 
+  }
+  .jerry-1{
+    position: absolute;
+    width: 120px;
+    top: 700px;
+    left: 1200px;
+    animation: jerrymove 5s 1 5ms;
+  
+  }
+  
+  @keyframes tommove{
+    0%   {left: 1300px;}
+    25%  {left: 900px;}
+    50%  {left: 600px }
+    75%  { left: 300px}
+    100% { left: 0px}
+  }
+  @keyframes jerrymove{
+    0%   {left: 1200px;}
+    25%  {left: 900px;}
+    50%  {left: 600px }
+    75%  { left: 300px}
+    100% { left: 0px}
+  }
+  .sun-1{
+    position: absolute;
+    width: 100px;
+    left: 1200px;
+    top: 100px;
+    animation: sunmove 5s 1 1s;
+  }
+  @keyframes sunmove{
+    0%   {left: 1200px;}
+    25%  {left: 900px;}
+    50%  {left: 600px }
+    75%  { left: 300px}
+    100% { left: 0px}
+  }
